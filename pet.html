@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stye.css">
     <title>Pet Store</title>
 </head>
 <body>
@@ -11,13 +12,25 @@
     </header>
     <nav>
         <a href="https//aboutus">About Us</a>
-        <a href="https//Contactus">Contact Us</a>
-        <a href="https//shop">Shop</a>
+        <a href="https//offers">Offers</a>
+        <a href="https//cart">Cart</a>
     </nav>
     <div>
-        <section id="pet supplies">
-            <h2>Pet Supplies</h2>
-            <p>We supply pet food, toys and grooming tools</p>
+        <section id="Shop-by-Pet">
+            <h2>Shop by Pet</h2>
+            <p>Shop for products and services by pet</p>
+            <figure>
+                <img src="Dog.jpg" alt="Dogs" style="width: 300px; height: 300px;" >
+                <figcaption>Dogs</figcaption>
+            </figure>
+            <figure>
+                <img src="Cat.jpg" alt="Cats" style="width: 300px; height: 300px;">
+                <figcaption>Cats</figcaption>
+            </figure>
+            <figure>
+                <img src="Birds.jpg" alt="Birds" style="width: 300px; height: 300px;">
+                <figcaption>Birds</figcaption>
+            </figure>
         </section>
         <section id="services">
             <h2>Services</h2>
@@ -27,16 +40,16 @@
                     <th>price</th>
                 </tr>
                 <tr>
-                    <th>grooming</th>
-                    <th>ksh500</th>
+                    <td>grooming</td>
+                    <td>ksh500</td>
                 </tr>
                 <tr>
-                    <th>pet-sitting</th>
-                    <th>ksh1000</th>
+                    <td>pet-sitting</td>
+                    <td>ksh1000</td>
                 </tr>
                 <tr>
-                    <th>Vet Care</th>
-                    <th>ksh2000</th>
+                    <td>Vet Care</td>
+                    <td>ksh2000</td>
                 </tr>
             </table>
         </section>
@@ -55,11 +68,13 @@
                 <li>chicken</li>
             </ul>
         </section>
-        <figure>
-            <img src="pet.jpg" alt="Pets" title="Love Pets" style="width: 300px; height: auto;">
-            <img src="" alt="">
-            <figcaption >Nairobi Pets and Supplies @c</figcaption>
-        </figure>
+        <div>
+            <figure id="pets">
+                <img src="pet.jpg" alt="Pets" title="Love Pets">
+                <figcaption >Nairobi Pets and Supplies @c</figcaption>
+            </figure>
+        </div>
+        
         <section id="Contact"></section>
         <h2>Contact Us</h2>
         <form action="submit" method="post" >
@@ -68,7 +83,6 @@
 
             <label for="email">Email</label>
             <input type="email" id="email" required>
-
             <label for="Contact Reason">Contact Reason</label>
             <select name="required" id="Reason">
                 <option value="inquiry">Inquiry</option>
@@ -79,7 +93,7 @@
         </form>
         <section id="location">
             <h2>Visit Us</h2>
-            <iframe src="https://www.google.com/maps/place/PetStore+Kenya/@-1.2613847,34.5092997,8z/data=!4m10!1m2!2m1!1spet++store+kenya!3m6!1s0x182f17c09bfa16d5:0xd63044be0489d1bd!8m2!3d-1.2613847!4d36.7505106!15sChBwZXQgIHN0b3JlIGtlbnlhWhEiD3BldCBzdG9yZSBrZW55YZIBEHBldF9zdXBwbHlfc3RvcmXgAQA!16s%2Fg%2F11f2wpt1m1?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D" frameborder="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.7425695038894!2d-122.0838516846891!3d37.38605197983224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24f77cfa409%3A0xc4a6da2a4a4d282e!2sGoogleplex!5e0!3m2!1sen!2sus!4v1637032809980!5m2!1sen!2sus" frameborder="0"></iframe>
         </section>
     </div>
     <footer style="font-size: small;">@Nairobi Pets 2023</footer>

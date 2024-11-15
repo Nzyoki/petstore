@@ -1,0 +1,86 @@
+body{
+    background-color:aliceblue;
+}
+header{
+    text-align: center;
+    background-color:aquamarine;
+    font-size:large;
+}
+nav{
+    text-align: center;
+    padding: 10px 0;
+}
+nav a{
+    text-decoration: none;
+    color:crimson;
+    text-align: center;
+    margin: 0 25px;
+}
+nav a:hover{
+    color:rgb(8, 236, 8);
+}
+div{
+    background: bisque;
+    margin:50px;
+    padding: 100px;
+    border-radius: 8px;
+    max-width: 90%;
+}
+div h2{
+    text-align: center;
+    color:darkmagenta;
+}
+#Shop-by-Pet img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+#Shop-by-Pet figure{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 0 1.5%;
+}
+table{
+    
+    margin-top: 20px;
+    width: 100%;
+}
+th{
+    border: 1px solid black;
+    padding: 10 px;
+    background-color: chocolate;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10 px;
+}
+tr{
+    font-weight: bold;
+}
+
+ul, ol{
+    margin: 8px 0;
+    font-family:  'Arial Narrow';
+}
+iframe{
+    text-align: center;
+    width: 100%;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 20px;
+}
+#pets{
+    width: 100%;
+    text-align: center;
+}
+#pets img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+form{
+    text-align: center;
+}
